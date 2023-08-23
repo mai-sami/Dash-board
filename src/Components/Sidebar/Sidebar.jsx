@@ -1,8 +1,19 @@
 import React from 'react'
+import './style.css'
+import { BsFillAirplaneFill } from "react-icons/bs";
 
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+    <div className='sidebar'>
+      
+      <div className='sidebar_item'>
+<BsFillAirplaneFill className='icon' />
+<div className='item_tite'>
+  fheifoeiwfe
+</div>
+
+      </div>
+    </div>
   )
 }
 

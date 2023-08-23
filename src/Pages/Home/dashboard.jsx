@@ -1,8 +1,11 @@
 import React from 'react'
+import BoxComponent from '../../Components/BoxComponent/BoxComponent'
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div>
+      <BoxComponent />
+    </div>
   )
 }
 

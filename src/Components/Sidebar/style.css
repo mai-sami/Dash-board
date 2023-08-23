@@ -1,0 +1,25 @@
+.sidebar{
+    background-color: rgba(45, 83, 222, 0.663)  !important;
+    min-width: 250px;
+    padding:1rem 2rem !important;
+display: flex;
+flex-direction: column;
+ 
+}
+.sidebar_item{
+    display: flex;
+align-items: center;
+margin: .5rem 0 .5rem;
+ padding: .8rem 0 .8rem;
+cursor: pointer;
+}
+.icon{
+    font-size: 22px;
+    box-shadow: rgba(239, 87, 11, 0.932) 0 10px 10px -10px;
+
+}
+.item_tite{
+    font-size: 18px;
+    
+margin-left: .5rem;
+}
