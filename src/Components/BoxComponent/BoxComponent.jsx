@@ -52,9 +52,9 @@ const BoxComponent = () => {
       {cardData.map((item) => (
         <div
           className="box"
-          style={{
-            boxShadow: `0px 8px 16px 0px ${getStatuseColor(item.role)} `,
-          }}
+          // style={{
+          //   boxShadow: `0px 8px 16px 0px ${getStatuseColor(item.role)} `,
+          // }}
         >
           <div className="box_content">
             <div className="ouer_detais">
