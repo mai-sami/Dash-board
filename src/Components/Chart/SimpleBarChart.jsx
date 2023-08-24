@@ -70,8 +70,8 @@ export default class SimpleBarChart extends PureComponent {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="pv" fill="#8884d8" />
-          <Bar dataKey="uv" fill="#82ca9d" />
+          <Bar dataKey="pv" fill="#D2001A" />
+          <Bar dataKey="uv" fill="#3E7C17" />
         </BarChart>
       </ResponsiveContainer>
       </div>
