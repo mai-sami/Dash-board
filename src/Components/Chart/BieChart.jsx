@@ -30,22 +30,19 @@ var data = {
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 var options = {
-  maintainAspectRatio: false,
-
+  maintainAspectRatio: true,
+  responsive: true,
   scales: {},
   legend: {
-    width: 255,
-    innerWidth: "44px",
     labels: {
       fontSize: 25,
-    },
-  },
+     },
+   },
 };
-
 const BieChart = () => {
   return (
     <div className="box_chart">
-      <Doughnut data={data} height={400} options={options} />
+      <Doughnut total={"550"} data={data} height={400} options={options} />
     </div>
   );
 };

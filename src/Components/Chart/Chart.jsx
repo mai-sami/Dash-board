@@ -1,12 +1,11 @@
 import React from "react";
 import BieChart from "./BieChart";
- const Chart = () => {
+import LineChart from "./LineChart";
+const Chart = () => {
   return (
     <div className="all_box">
-       <BieChart />
-       
       <BieChart />
- 
+      <LineChart />
     </div>
   );
 };
