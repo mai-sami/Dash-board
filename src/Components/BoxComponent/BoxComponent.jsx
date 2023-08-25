@@ -4,28 +4,28 @@ import { BsBarChartLineFill } from "react-icons/bs";
 var cardData = [
   {
     image: BsBarChartLineFill,
-    price: 38810,
+    price: 310,
     subTitle: "All Earning",
     detail: "10% changes on profit",
     role: 1,
   },
   {
     image: BsBarChartLineFill,
-    price: 321029,
+    price: 229,
     subTitle: "Task ",
     detail: "28% task performance ",
     role: 2,
   },
   {
     image: BsBarChartLineFill,
-    price: 858568,
+    price: 568,
     subTitle: "Pages View",
     detail: "10% details view",
     role: 3,
   },
   {
     image: BsBarChartLineFill,
-    price: 9988578,
+    price: 998,
     subTitle: "Download",
     detail: "10% download in App store",
     role: 4,
@@ -52,9 +52,9 @@ const BoxComponent = () => {
       {cardData.map((item) => (
         <div
           className="box"
-          // style={{
-          //   boxShadow: `0px 8px 16px 0px ${getStatuseColor(item.role)} `,
-          // }}
+          style={{
+            border: `1px solid ${getStatuseColor(item.role)} `,
+          }}
         >
           <div className="box_content">
             <div className="ouer_detais">

@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ }
+body{
+    background-color: #eeeeee90;
+ 
 }
-
 .content {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    height: 90vh;
+    height: 100vh;
  
 }
 
