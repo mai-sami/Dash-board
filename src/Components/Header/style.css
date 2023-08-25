@@ -51,10 +51,10 @@ body{
      display: flex;
  
 }
-a{
+/* a{
     color: #FF987A !important;
  font-weight: 600 !important;
-}
+} */
 .icon{
     font-size: 20px;
     color: #ffff ;
